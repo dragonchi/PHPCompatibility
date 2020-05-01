@@ -404,16 +404,19 @@ class NewClassesSniff extends AbstractNewFeatureSniff
         ),
 
         'FFI' => array(
-            '7.3' => false,
-            '7.4' => true,
+            '7.3'       => false,
+            '7.4'       => true,
+            'extension' => 'ffi',
         ),
         'FFI\CData' => array(
-            '7.3' => false,
-            '7.4' => true,
+            '7.3'       => false,
+            '7.4'       => true,
+            'extension' => 'ffi',
         ),
         'FFI\CType' => array(
-            '7.3' => false,
-            '7.4' => true,
+            '7.3'       => false,
+            '7.4'       => true,
+            'extension' => 'ffi',
         ),
         'ReflectionReference' => array(
             '7.3' => false,
@@ -612,12 +615,14 @@ class NewClassesSniff extends AbstractNewFeatureSniff
         ),
 
         'FFI\Exception' => array(
-            '7.3' => false,
-            '7.4' => true,
+            '7.3'       => false,
+            '7.4'       => true,
+            'extension' => 'ffi',
         ),
         'FFI\ParserException' => array(
-            '7.3' => false,
-            '7.4' => true,
+            '7.3'       => false,
+            '7.4'       => true,
+            'extension' => 'ffi',
         ),
     );
 

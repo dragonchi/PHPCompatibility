@@ -30,7 +30,9 @@ trait NewExtensionsTrait
      * @var array(string => array(string => bool|string|null))
      */
     public $newExtensions = array(
-
+        'ffi' => array(
+            '7.4' => true,
+        ),
     );
 
     /**
