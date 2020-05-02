@@ -37,6 +37,10 @@ trait NewExtensionsTrait
             '5.5'         => true,
             'alternative' => 'pecl/opcache',
         ),
+        'phar' => array(
+            '5.3'         => true,
+            'alternative' => 'pecl/phar',
+        ),
         'phpdbg' => array(
             '5.6' => true,
         ),

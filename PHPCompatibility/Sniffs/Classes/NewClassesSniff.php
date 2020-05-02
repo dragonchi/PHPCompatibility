@@ -241,16 +241,19 @@ class NewClassesSniff extends AbstractNewFeatureSniff
             '5.3' => true,
         ),
         'Phar' => array(
-            '5.2' => false,
-            '5.3' => true,
+            '5.2'       => false,
+            '5.3'       => true,
+            'extension' => 'phar',
         ),
         'PharData' => array(
-            '5.2' => false,
-            '5.3' => true,
+            '5.2'       => false,
+            '5.3'       => true,
+            'extension' => 'phar',
         ),
         'PharFileInfo' => array(
-            '5.2' => false,
-            '5.3' => true,
+            '5.2'       => false,
+            '5.3'       => true,
+            'extension' => 'phar',
         ),
         'FilesystemIterator' => array(
             '5.2' => false,
@@ -544,8 +547,9 @@ class NewClassesSniff extends AbstractNewFeatureSniff
         ),
 
         'PharException' => array(
-            '5.2' => false,
-            '5.3' => true,
+            '5.2'       => false,
+            '5.3'       => true,
+            'extension' => 'phar',
         ),
 
         'SNMPException' => array(
