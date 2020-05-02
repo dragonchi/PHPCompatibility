@@ -196,14 +196,6 @@ class RemovedExtensionsSniff extends AbstractRemovedFeatureSniff
             'alternative' => 'mysqli',
             'separator' => '_', // Verified: all functions use separator.
         ),
-        /* seen & verified */
-        'ncurses' => array(
-            '5.3' => true,
-            'alternative' => 'pecl/ncurses',
-            'separator' => '_', // Verified: all functions use separator.
-            // No ini variables
-            // All constants start with NCURSES_
-        ),
         'oracle' => array(
             '5.1' => true,
             'alternative' => 'oci8 or pdo_oci',
