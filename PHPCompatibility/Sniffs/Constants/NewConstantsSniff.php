@@ -1865,7 +1865,11 @@ class NewConstantsSniff extends AbstractNewFeatureSniff
             '5.4' => false,
             '5.5' => true,
         ),
-
+        // Readline:
+        'READLINE_LIB' => array(
+            '5.4' => false,
+            '5.5' => true,
+        ),
 
         // Libxml:
         'LIBXML_SCHEMA_CREATE' => array(
