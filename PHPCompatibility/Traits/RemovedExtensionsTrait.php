@@ -30,6 +30,10 @@ trait RemovedExtensionsTrait
      * @var array(string => array(string => bool|string|null))
      */
     public $removedExtensions = array(
+        'mcve' => array(
+            '5.1'         => true,
+            'alternative' => 'pecl/mcve',
+        ),
         'ncurses' => array(
             '5.3'         => true,
             'alternative' => 'pecl/ncurses',

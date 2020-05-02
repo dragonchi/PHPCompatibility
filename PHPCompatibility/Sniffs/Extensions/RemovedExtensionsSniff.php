@@ -155,14 +155,6 @@ class RemovedExtensionsSniff extends AbstractRemovedFeatureSniff
 
         ),
         /* seen & verified */
-        'mcve' => array(
-            '5.1' => true,
-            'alternative' => 'pecl/mcve',
-            // No ini variables
-            // All constants start with M_ -> only five: M_PENDING, M_DONE, M_ERROR, M_FAIL, M_SUCCESS
-            // Function prefix: m_
-        ),
-        /* seen & verified */
         'mimetype' => array(
             '5.3' => true,
             'alternative' => 'fileinfo',
