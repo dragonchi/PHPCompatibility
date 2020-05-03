@@ -30,6 +30,11 @@ trait RemovedExtensionsTrait
      * @var array(string => array(string => bool|string|null))
      */
     public $removedExtensions = array(
+        'mcrypt' => array(
+            '7.1'         => false,
+            '7.2'         => true,
+            'alternative' => 'the sodium or openssl extensions (preferred) or pecl/mcrypt',
+        ),
         'mcve' => array(
             '5.1'         => true,
             'alternative' => 'pecl/mcve',

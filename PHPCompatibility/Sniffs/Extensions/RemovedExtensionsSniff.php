@@ -144,17 +144,6 @@ class RemovedExtensionsSniff extends AbstractRemovedFeatureSniff
             'alternative' => null,
         ),
         /* seen & verified */
-        'mcrypt' => array(
-            '7.1' => false,
-            '7.2' => true,
-            'alternative' => 'openssl (preferred) or pecl/mcrypt once available',
-            'separator' => '_', // Verified: all functions use separator, though there is also the mdecrypt_generic function.
-            // ini prefix: `mcrypt.`
-            // All constants start with MCRYPT_
-            // Functions prefix: `mcrypt_` and `mdecrypt_`
-
-        ),
-        /* seen & verified */
         'mimetype' => array(
             '5.3' => true,
             'alternative' => 'fileinfo',
