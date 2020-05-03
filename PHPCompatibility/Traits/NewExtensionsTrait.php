@@ -30,6 +30,10 @@ trait NewExtensionsTrait
      * @var array(string => array(string => bool|string|null))
      */
     public $newExtensions = array(
+        'csprng' => array(
+            '7.0'         => true,
+            'alternative' => 'https://github.com/paragonie/random_compat',
+        ),
         'ffi' => array(
             '7.4' => true,
         ),
