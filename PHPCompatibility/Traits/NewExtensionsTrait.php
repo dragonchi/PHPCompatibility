@@ -37,6 +37,10 @@ trait NewExtensionsTrait
         'ffi' => array(
             '7.4' => true,
         ),
+        'hash' => array(
+            '5.1.2'       => true,
+            'alternative' => 'pecl/hash',
+        ),
         'opcache' => array(
             '5.5'         => true,
             'alternative' => 'pecl/opcache',
