@@ -45,6 +45,10 @@ trait NewExtensionsTrait
             '5.5'         => true,
             'alternative' => 'pecl/opcache',
         ),
+        'password' => array(
+            '5.5'         => true,
+            'alternative' => 'https://github.com/ircmaxell/password_compat',
+        ),
         'phar' => array(
             '5.3'         => true,
             'alternative' => 'pecl/phar',

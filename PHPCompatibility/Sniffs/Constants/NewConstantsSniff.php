@@ -1860,16 +1860,19 @@ class NewConstantsSniff extends AbstractNewFeatureSniff
         ),
         // Core/Password Hashing:
         'PASSWORD_BCRYPT' => array(
-            '5.4' => false,
-            '5.5' => true,
+            '5.4'       => false,
+            '5.5'       => true,
+            'extension' => 'password',
         ),
         'PASSWORD_DEFAULT' => array(
-            '5.4' => false,
-            '5.5' => true,
+            '5.4'       => false,
+            '5.5'       => true,
+            'extension' => 'password',
         ),
         'PASSWORD_BCRYPT_DEFAULT_COST' => array(
-            '5.4' => false,
-            '5.5' => true,
+            '5.4'       => false,
+            '5.5'       => true,
+            'extension' => 'password',
         ),
         // Readline:
         'READLINE_LIB' => array(
@@ -2624,20 +2627,24 @@ class NewConstantsSniff extends AbstractNewFeatureSniff
 
         // Core/Password Hashing:
         'PASSWORD_ARGON2I' => array(
-            '7.1' => false,
-            '7.2' => true,
+            '7.1'       => false,
+            '7.2'       => true,
+            'extension' => 'password',
         ),
         'PASSWORD_ARGON2_DEFAULT_MEMORY_COST' => array(
-            '7.1' => false,
-            '7.2' => true,
+            '7.1'       => false,
+            '7.2'       => true,
+            'extension' => 'password',
         ),
         'PASSWORD_ARGON2_DEFAULT_TIME_COST' => array(
-            '7.1' => false,
-            '7.2' => true,
+            '7.1'       => false,
+            '7.2'       => true,
+            'extension' => 'password',
         ),
         'PASSWORD_ARGON2_DEFAULT_THREADS' => array(
-            '7.1' => false,
-            '7.2' => true,
+            '7.1'       => false,
+            '7.2'       => true,
+            'extension' => 'password',
         ),
 
         // Fileinfo:
@@ -3513,8 +3520,9 @@ class NewConstantsSniff extends AbstractNewFeatureSniff
             '7.3' => true,
         ),
         'PASSWORD_ARGON2ID' => array(
-            '7.2' => false,
-            '7.3' => true,
+            '7.2'       => false,
+            '7.3'       => true,
+            'extension' => 'password',
         ),
         'STREAM_CRYPTO_PROTO_SSLv3' => array(
             '7.2' => false,
@@ -3571,8 +3579,9 @@ class NewConstantsSniff extends AbstractNewFeatureSniff
             '7.4' => true,
         ),
         'PASSWORD_ARGON2_PROVIDER' => array(
-            '7.3' => false,
-            '7.4' => true,
+            '7.3'       => false,
+            '7.4'       => true,
+            'extension' => 'password',
         ),
         'PHP_WINDOWS_EVENT_CTRL_C' => array(
             '7.3' => false,
