@@ -30,6 +30,10 @@ trait RemovedExtensionsTrait
      * @var array(string => array(string => bool|string|null))
      */
     public $removedExtensions = array(
+        'dio' => array(
+            '5.1'         => true,
+            'alternative' => 'pecl/dio',
+        ),
         'mcrypt' => array(
             '7.1'         => false,
             '7.2'         => true,

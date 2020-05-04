@@ -93,14 +93,6 @@ class RemovedExtensionsSniff extends AbstractRemovedFeatureSniff
             'alternative' => 'pecl/dbx',
             'separator' => '_', // Verified: all functions use separator.
         ),
-        /* seen & verified */
-        'dio' => array(
-            '5.1' => true,
-            'alternative' => 'pecl/dio',
-            'separator' => '_', // Verified: all functions use separator.
-            // No ini variables
-            // All constants start with F_, O_ or S_ ... bit too arbitrary
-        ),
         'ereg' => array(
             '5.3' => false,
             '7.0' => true,
