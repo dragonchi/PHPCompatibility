@@ -37,6 +37,10 @@ trait NewExtensionsTrait
         'ffi' => array(
             '7.4' => true,
         ),
+        'fileinfo' => array(
+            '5.3'         => true,
+            'alternative' => 'pecl/fileinfo',
+        ),
         'hash' => array(
             '5.1.2'       => true,
             'alternative' => 'pecl/hash',
