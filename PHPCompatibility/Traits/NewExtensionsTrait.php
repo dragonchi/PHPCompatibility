@@ -49,6 +49,10 @@ trait NewExtensionsTrait
             '5.1.2'       => true,
             'alternative' => 'pecl/hash',
         ),
+        'intl' => array(
+            '5.3'         => true,
+            'alternative' => 'pecl/intl',
+        ),
         'opcache' => array(
             '5.5'         => true,
             'alternative' => 'pecl/opcache',
