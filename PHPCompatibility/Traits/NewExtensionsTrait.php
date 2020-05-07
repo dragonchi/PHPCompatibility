@@ -34,6 +34,10 @@ trait NewExtensionsTrait
             '7.0'         => true,
             'alternative' => 'https://github.com/paragonie/random_compat',
         ),
+        'enchant' => array(
+            '5.3'         => true,
+            'alternative' => 'pecl/enchant',
+        ),
         'ffi' => array(
             '7.4' => true,
         ),
