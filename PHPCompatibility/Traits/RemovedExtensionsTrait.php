@@ -43,6 +43,10 @@ trait RemovedExtensionsTrait
             '5.1'         => true,
             'alternative' => 'pecl/mcve',
         ),
+        'mimetype' => array(
+            '5.3'         => true,
+            'alternative' => 'fileinfo',
+        ),
         'ncurses' => array(
             '5.3'         => true,
             'alternative' => 'pecl/ncurses',

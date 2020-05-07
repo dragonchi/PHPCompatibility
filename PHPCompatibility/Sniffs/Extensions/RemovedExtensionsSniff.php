@@ -135,14 +135,6 @@ class RemovedExtensionsSniff extends AbstractRemovedFeatureSniff
             '5.1' => true,
             'alternative' => null,
         ),
-        /* seen & verified */
-        'mimetype' => array(
-            '5.3' => true,
-            'alternative' => 'fileinfo',
-            // ini prefix: `mime_magic.`
-            // NO constants
-            // NO functions (at least none documented) ?
-        ),
         'ming' => array(
             '5.3' => true,
             'alternative' => 'pecl/ming',
