@@ -51,6 +51,10 @@ trait RemovedExtensionsTrait
             '5.3'         => true,
             'alternative' => 'pecl/ncurses',
         ),
+        'recode' => array(
+            '7.4'         => true,
+            'alternative' => 'iconv or mbstring',
+        ),
     );
 
     /**
