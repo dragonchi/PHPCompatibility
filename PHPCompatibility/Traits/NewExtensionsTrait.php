@@ -60,6 +60,10 @@ trait NewExtensionsTrait
         'phpdbg' => array(
             '5.6' => true,
         ),
+        'sodium' => array(
+            '7.2'         => true,
+            'alternative' => 'pecl/libsodium or https://github.com/paragonie/sodium_compat/',
+        ),
     );
 
     /**
