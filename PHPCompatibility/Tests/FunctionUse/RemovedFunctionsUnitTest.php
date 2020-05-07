@@ -521,6 +521,10 @@ class RemovedFunctionsUnitTest extends BaseSniffTest
             array('wddx_packet_start', '7.4', array(231), '7.3'),
             array('wddx_serialize_value', '7.4', array(232), '7.3'),
             array('wddx_serialize_vars', '7.4', array(233), '7.3'),
+
+            array('recode_file', '7.4', array(236), '7.3'),
+            array('recode_string', '7.4', array(237), '7.3'),
+            array('recode', '7.4', array(238), '7.3'),
         );
     }
 
@@ -566,10 +570,6 @@ class RemovedFunctionsUnitTest extends BaseSniffTest
     {
         return array(
             array('zend_logo_guid', '5.5', 'text string "PHPE9568F35-D428-11d2-A769-00AA001ACF42"', array(35), '5.4'),
-
-            array('recode_file', '7.4', 'the iconv or mbstring extension', array(236), '7.3'),
-            array('recode_string', '7.4', 'the iconv or mbstring extension', array(237), '7.3'),
-            array('recode', '7.4', 'the iconv or mbstring extension', array(238), '7.3'),
         );
     }
 
