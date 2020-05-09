@@ -303,6 +303,10 @@ class NewFunctionsSniff extends AbstractNewFeatureSniff
             '5.1' => false,
             '5.2' => true,
         ),
+        'mb_strstr' => array(
+            '5.1' => false,
+            '5.2' => true,
+        ),
         'ming_setSWFCompression' => array(
             '5.1' => false,
             '5.2' => true,
@@ -1278,6 +1282,10 @@ class NewFunctionsSniff extends AbstractNewFeatureSniff
             '5.2' => false,
             '5.3' => true,
         ),
+        'mb_encoding_aliases' => array(
+            '5.2' => false,
+            '5.3' => true,
+        ),
 
         'enchant_broker_get_dict_path' => array(
             '5.3.0'     => false,
@@ -1449,6 +1457,11 @@ class NewFunctionsSniff extends AbstractNewFeatureSniff
         'gzdecode' => array(
             '5.3' => false,
             '5.4' => true,
+        ),
+
+        'mb_ereg_replace_callback' => array(
+            '5.4.0' => false,
+            '5.4.1' => true,
         ),
 
         'array_column' => array(
