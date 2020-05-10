@@ -75,6 +75,9 @@ trait NewExtensionsTrait
             '7.2'         => true,
             'alternative' => 'pecl/libsodium or https://github.com/paragonie/sodium_compat/',
         ),
+        'spl' => array(
+            '5.0' => true,
+        ),
     );
 
     /**
