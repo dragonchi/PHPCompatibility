@@ -142,7 +142,14 @@ class RemovedClassesSniff extends AbstractRemovedFeatureSniff
      *
      * @var array(string => array(string => bool))
      */
-    protected $removedExceptions = array();
+    protected $removedExceptions = array(
+/*
+        'com_exception' => array(
+            '4.4' => false,
+            '5.0' => true,
+        ),
+*/
+    );
 
 
     /**
