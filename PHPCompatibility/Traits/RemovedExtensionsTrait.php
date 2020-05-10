@@ -34,6 +34,10 @@ trait RemovedExtensionsTrait
             '5.1'         => true,
             'alternative' => 'pecl/dio',
         ),
+        'fdf' => array(
+            '5.3'         => true,
+            'alternative' => 'pecl/fdf',
+        ),
         'mcrypt' => array(
             '7.1'         => false,
             '7.2'         => true,

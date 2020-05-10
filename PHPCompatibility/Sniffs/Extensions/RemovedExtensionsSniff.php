@@ -108,11 +108,6 @@ class RemovedExtensionsSniff extends AbstractRemovedFeatureSniff
             'alternative' => null,
             'separator' => '_', // Verified: all functions use separator.
         ),
-        'fdf' => array(
-            '5.3' => true,
-            'alternative' => 'pecl/fdf',
-            'separator' => '_', // Verified: all functions use separator.
-        ),
         'filepro' => array(
             '5.2' => true,
             'alternative' => null,
