@@ -130,10 +130,6 @@ class RemovedExtensionsSniff extends AbstractRemovedFeatureSniff
             '5.1' => true,
             'alternative' => null,
         ),
-        'ming' => array(
-            '5.3' => true,
-            'alternative' => 'pecl/ming',
-        ),
         'mnogosearch' => array(
             '5.1' => true,
             'alternative' => null,

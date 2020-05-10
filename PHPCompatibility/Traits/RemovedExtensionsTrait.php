@@ -51,6 +51,10 @@ trait RemovedExtensionsTrait
             '5.3'         => true,
             'alternative' => 'fileinfo',
         ),
+        'ming' => array(
+            '5.3'         => true,
+            'alternative' => 'pecl/ming',
+        ),
         'ncurses' => array(
             '5.3'         => true,
             'alternative' => 'pecl/ncurses',

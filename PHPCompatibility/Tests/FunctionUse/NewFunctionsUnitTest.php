@@ -121,7 +121,7 @@ class NewFunctionsUnitTest extends BaseSniffTest
             array('mb_strrichr', '5.1', array(28), '5.2'),
             array('mb_strripos', '5.1', array(29), '5.2'),
             array('mb_strstr', '5.1', array(681), '5.2'),
-            array('ming_setSWFCompression', '5.1', array(30), '5.2'),
+            array('ming_setswfcompression', '5.1', array(30), '5.2'),
             array('openssl_csr_get_public_key', '5.1', array(31), '5.2'),
             array('openssl_csr_get_subject', '5.1', array(32), '5.2'),
             array('openssl_pkey_get_details', '5.1', array(33), '5.2'),
