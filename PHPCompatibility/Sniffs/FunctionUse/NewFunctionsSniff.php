@@ -404,12 +404,14 @@ class NewFunctionsSniff extends AbstractNewFeatureSniff
             '5.2' => true,
         ),
         'json_decode' => array(
-            '5.1' => false,
-            '5.2' => true,
+            '5.1'       => false,
+            '5.2'       => true,
+            'extension' => 'json',
         ),
         'json_encode' => array(
-            '5.1' => false,
-            '5.2' => true,
+            '5.1'       => false,
+            '5.2'       => true,
+            'extension' => 'json',
         ),
         'zip_close' => array(
             '5.1' => false,
@@ -629,8 +631,9 @@ class NewFunctionsSniff extends AbstractNewFeatureSniff
             '5.3' => true,
         ),
         'json_last_error' => array(
-            '5.2' => false,
-            '5.3' => true,
+            '5.2'       => false,
+            '5.3'       => true,
+            'extension' => 'json',
         ),
         'mysqli_get_cache_stats' => array(
             '5.2' => false,
@@ -1515,8 +1518,9 @@ class NewFunctionsSniff extends AbstractNewFeatureSniff
             '5.5' => true,
         ),
         'json_last_error_msg' => array(
-            '5.4' => false,
-            '5.5' => true,
+            '5.4'       => false,
+            '5.5'       => true,
+            'extension' => 'json',
         ),
         'password_get_info' => array(
             '5.4'       => false,

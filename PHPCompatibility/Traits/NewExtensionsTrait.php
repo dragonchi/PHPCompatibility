@@ -53,6 +53,9 @@ trait NewExtensionsTrait
             '5.3'         => true,
             'alternative' => 'pecl/intl',
         ),
+        'json' => array(
+            '5.2' => true,
+        ),
         'opcache' => array(
             '5.5'         => true,
             'alternative' => 'pecl/opcache',
