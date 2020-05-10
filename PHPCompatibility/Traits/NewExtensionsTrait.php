@@ -78,6 +78,9 @@ trait NewExtensionsTrait
         'spl' => array(
             '5.0' => true,
         ),
+        'tidy' => array(
+            '5.0' => true,
+        ),
     );
 
     /**
