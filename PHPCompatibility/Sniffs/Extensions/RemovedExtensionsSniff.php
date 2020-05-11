@@ -180,11 +180,6 @@ class RemovedExtensionsSniff extends AbstractRemovedFeatureSniff
             '7.4' => true,
             'alternative' => 'pecl/wddx',
         ),
-        'yp' => array(
-            '5.1' => true,
-            'alternative' => null,
-            'separator' => '_', // Verified: all functions use separator.
-        ),
     );
 
     /**

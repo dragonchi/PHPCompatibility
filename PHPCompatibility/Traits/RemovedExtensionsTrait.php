@@ -70,6 +70,9 @@ trait RemovedExtensionsTrait
             '7.4'         => true,
             'alternative' => 'iconv or mbstring',
         ),
+        'yp' => array(
+            '5.1' => true,
+        ),
     );
 
     /**
