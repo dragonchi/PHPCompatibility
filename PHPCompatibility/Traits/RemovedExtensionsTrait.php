@@ -34,6 +34,9 @@ trait RemovedExtensionsTrait
             '5.1'         => true,
             'alternative' => 'pecl/dio',
         ),
+        'fam' => array(
+            '5.1' => true,
+        ),
         'fdf' => array(
             '5.3'         => true,
             'alternative' => 'pecl/fdf',

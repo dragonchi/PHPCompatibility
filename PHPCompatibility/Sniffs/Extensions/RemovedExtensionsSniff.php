@@ -98,11 +98,6 @@ class RemovedExtensionsSniff extends AbstractRemovedFeatureSniff
             '7.0' => true,
             'alternative' => 'pcre',
         ),
-        'fam' => array(
-            '5.1' => true,
-            'alternative' => null,
-            'separator' => '_', // Verified: all functions use separator.
-        ),
         'fbsql' => array(
             '5.3' => true,
             'alternative' => null,
