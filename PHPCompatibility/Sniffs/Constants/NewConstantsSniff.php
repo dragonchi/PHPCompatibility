@@ -2787,6 +2787,11 @@ class NewConstantsSniff extends AbstractNewFeatureSniff
             '5.5' => false,
             '5.6' => true,
         ),
+        // FTP:
+        'FTP_USEPASVADDRESS' => array(
+            '5.5' => false,
+            '5.6' => true,
+        ),
         // LDAP:
         'LDAP_ESCAPE_DN' => array(
             '5.5' => false,
