@@ -121,12 +121,6 @@ class RemovedExtensionsSniff extends AbstractRemovedFeatureSniff
             '5.1' => true,
             'alternative' => null,
         ),
-        'mnogosearch' => array(
-            '5.1' => true,
-            'alternative' => null,
-            'prefix' => 'udm',
-            'separator' => '_', // Verified: all functions use separator.
-        ),
         'msql' => array(
             '5.3' => true,
             'alternative' => null,

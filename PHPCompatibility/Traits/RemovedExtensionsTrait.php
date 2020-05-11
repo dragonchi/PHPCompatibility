@@ -62,6 +62,9 @@ trait RemovedExtensionsTrait
             '5.3'         => true,
             'alternative' => 'pecl/ming',
         ),
+        'mnogosearch' => array(
+            '5.1' => true,
+        ),
         'ncurses' => array(
             '5.3'         => true,
             'alternative' => 'pecl/ncurses',
