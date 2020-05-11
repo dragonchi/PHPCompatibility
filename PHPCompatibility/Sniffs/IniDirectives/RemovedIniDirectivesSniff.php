@@ -77,6 +77,11 @@ class RemovedIniDirectivesSniff extends AbstractRemovedFeatureSniff
         'pfpro.proxypassword' => array(
             '5.1' => true,
         ),
+        
+        'hwapi.allow_persistent' => array(
+            '5.2'       => true,
+            'extension' => 'hwapi',
+        ),
 
         'ifx.allow_persistent' => array(
             '5.2.1' => true,

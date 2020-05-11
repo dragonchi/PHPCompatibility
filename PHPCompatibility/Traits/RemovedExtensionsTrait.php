@@ -41,6 +41,10 @@ trait RemovedExtensionsTrait
             '5.3'         => true,
             'alternative' => 'pecl/fdf',
         ),
+        'hwapi' => array(
+            '5.2'         => true,
+            'alternative' => 'pecl/hwapi',
+        ),
         'mcrypt' => array(
             '7.1'         => false,
             '7.2'         => true,

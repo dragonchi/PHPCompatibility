@@ -108,10 +108,6 @@ class RemovedExtensionsSniff extends AbstractRemovedFeatureSniff
             'alternative' => null,
             'separator' => '_', // Verified: function 'filepro' exists - all other functions use separator.
         ),
-        'hw_api' => array(
-            '5.2' => true,
-            'alternative' => null,
-        ),
         'ibase' => array(
             '7.4' => true,
             'alternative' => 'pecl/ibase',
