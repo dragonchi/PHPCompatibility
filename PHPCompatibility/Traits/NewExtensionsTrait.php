@@ -45,6 +45,9 @@ trait NewExtensionsTrait
             '5.3'         => true,
             'alternative' => 'pecl/fileinfo',
         ),
+        'fpm' => array(
+            '5.3.3' => true,
+        ),
         'hash' => array(
             '5.1.2'       => true,
             'alternative' => 'pecl/hash',
